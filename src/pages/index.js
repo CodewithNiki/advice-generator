@@ -20,7 +20,7 @@ export default function Home({advice}) {
 
   return (
     <main className="flex min-h-screen w-full bg-slate-900 items-center justify-center">
-      <div className="relative lg:w-1/3 w-2/3 bg-slate-700 h-1/3 rounded-lg sm:p-14 px-6 py-14 flex items-center flex-col gap-6">
+      <div className="relative lg:w-1/3 w-2/3 bg-slate-700 h-1/3 rounded-lg sm:p-14 px-6 py-14 flex items-center flex-col gap-6 text-center sm:text-left">
         <p className="text-green-300 text-sm font-semibold tracking-[0.3rem]">
           ADVICE #{currentAdvice.id}
         </p>
